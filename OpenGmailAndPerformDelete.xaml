@@ -159,13 +159,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1076,1493" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="9b2813e6-a409-4b21-a0ac-14f21c9a50fa">
+    <uix:NApplicationCard DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1076,1457" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="9b2813e6-a409-4b21-a0ac-14f21c9a50fa">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1042,1276" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1042,1240" sap2010:WorkflowViewState.IdRef="Sequence_6">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="noRecordsFound">
                 <Variable.Default>
@@ -194,16 +194,16 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="1008,928" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+            <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="1008,892" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
               <ui:InterruptibleDoWhile.Body>
-                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1006,805" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1006,769" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NCheckState DisplayName="Check App State 'No messages matched you…(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="972,745" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="9b2813e6-a409-4b21-a0ac-14f21c9a50fa" Version="V4">
+                  <uix:NCheckState DisplayName="Check App State 'No messages matched you…(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="972,709" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="9b2813e6-a409-4b21-a0ac-14f21c9a50fa" Version="V4">
                     <uix:NCheckState.IfExists>
                       <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="468,169" sap2010:WorkflowViewState.IdRef="Sequence_9">
                         <sap:WorkflowViewStateService.ViewState>
@@ -224,7 +224,7 @@
                       </Sequence>
                     </uix:NCheckState.IfExists>
                     <uix:NCheckState.IfNotExists>
-                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,505" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,469" sap2010:WorkflowViewState.IdRef="Sequence_10">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -245,20 +245,16 @@
                             </uix:VerifyExecutionOptions>
                           </uix:NClick.VerifyOptions>
                         </uix:NClick>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV(4)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9b2813e6-a409-4b21-a0ac-14f21c9a50fa" Version="V4">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV(4)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,182" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9b2813e6-a409-4b21-a0ac-14f21c9a50fa" Version="V4">
                           <uix:NClick.Target>
-                            <uix:TargetAnchorable BrowserURL="mail.google.com/mail/u/0" CVScreenId="de24955f-ca3f-4dc5-8590-62c1d6a780d3" ContentHash="zQIeG5VcdUGc_mcCautWGw" DesignTimeRectangle="496, 315, 20, 20" FullSelectorArgument="&lt;webctrl class='asa' idx='3' parentid='29' tag='DIV' /&gt;" Guid="dd79de05-1a17-48d9-b69f-7cbfa6a19017" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB0SURBVEhL7ZPRCoAgDEX9uKgPqj5I+9BiC8HE3e1hQg87cGHo3NmL6Z5M6g+8CYGKWbBs6ydWREE/UIuEKMil8MP9PLgehe6oh2oJUUBoj+sSCLOg1u3QEISA+Y9ghIvA8pMRUJCvd0MU6kFAgQchUJkueAAAZjonICv1qQAAAABJRU5ErkJggg==" InformativeScreenshot="7c5b650c61ce15ebcf9019fb6c1eea63.png" Reference="p0RlEkLUH0eUrOpmPmWGvg/Ag7X_7zhhEK3YzP9-8EONw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search results - jsquareshah@gmail.com - Gmail' /&gt;" SearchSteps="Selector, Image" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                            <uix:TargetAnchorable BrowserURL="mail.google.com/mail/u/0" CVScreenId="de24955f-ca3f-4dc5-8590-62c1d6a780d3" ContentHash="ZiX3fthg3EmhNE8DYEvvKQ" DesignTimeRectangle="492, 311, 28, 28" FullSelectorArgument="&lt;webctrl class='asa' idx='3' parentid='29' tag='DIV' /&gt;" Guid="dd79de05-1a17-48d9-b69f-7cbfa6a19017" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB3SURBVEhL7dRRCoAgEEVRFxe1oGpB2kKLMQQ16T1h7Kc5MCAlXvvJnR9z9YPRLKjOgg/TMhfTCwbrABoEBn0I8aB13+K6NfJO9sgagUGBDkuXYnQH0zqPWDBnwehfwZYhQeZPw6CC/ri/4G1kD4MKarKgOguquwCPpncUcAzWeAAAAABJRU5ErkJggg==" InformativeScreenshot="4c92d0ed2a81cc274a97535876f8dc83.png" Reference="p0RlEkLUH0eUrOpmPmWGvg/Ag7X_7zhhEK3YzP9-8EONw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search results - jsquareshah@gmail.com - Gmail' /&gt;" SearchSteps="Selector, Image" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
                           </uix:NClick.Target>
-                          <uix:NClick.VerifyOptions>
-                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                              <uix:VerifyExecutionOptions.Retry>
-                                <InArgument x:TypeArguments="x:Boolean" />
-                              </uix:VerifyExecutionOptions.Retry>
-                              <uix:VerifyExecutionOptions.Timeout>
-                                <InArgument x:TypeArguments="x:Double" />
-                              </uix:VerifyExecutionOptions.Timeout>
-                            </uix:VerifyExecutionOptions>
-                          </uix:NClick.VerifyOptions>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
                         </uix:NClick>
                       </Sequence>
                     </uix:NCheckState.IfNotExists>

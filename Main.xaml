@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -242,7 +242,7 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart sap:VirtualizedContainerService.HintSize="600,648" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart sap:VirtualizedContainerService.HintSize="1315,838.04" sap2010:WorkflowViewState.IdRef="Flowchart_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -253,26 +253,185 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <Flowchart.StartNode>
-        <x:Reference>__ReferenceID0</x:Reference>
+        <x:Reference>__ReferenceID1</x:Reference>
       </Flowchart.StartNode>
-      <FlowStep x:Name="__ReferenceID0">
+      <FlowStep x:Name="__ReferenceID1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">213,213</av:Point>
             <av:Size x:Key="ShapeSize">110,70</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">323,248 353,248 353,390 325,390</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="OpenGmailAndPerformDelete - Invoke Workflow File (OpenGmailAndPerformDelete.xaml)" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="OpenGmailAndPerformDelete.xaml">
-          <ui:InvokeWorkflowFile.Arguments>
-            <scg:Dictionary x:TypeArguments="x:String, Argument" />
-          </ui:InvokeWorkflowFile.Arguments>
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </ui:InvokeWorkflowFile>
+        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+          <ui:CommentOut.Body>
+            <Sequence DisplayName="Ignored Activities" sap2010:WorkflowViewState.IdRef="Sequence_10">
+              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="OpenGmailAndPerformDelete - Invoke Workflow File (OpenGmailAndPerformDelete.xaml)" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="OpenGmailAndPerformDelete.xaml">
+                <ui:InvokeWorkflowFile.Arguments>
+                  <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                </ui:InvokeWorkflowFile.Arguments>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:InvokeWorkflowFile>
+            </Sequence>
+          </ui:CommentOut.Body>
+        </ui:CommentOut>
+        <FlowStep.Next>
+          <FlowStep x:Name="__ReferenceID0">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <av:Point x:Key="ShapeLocation">215,355</av:Point>
+                <av:Size x:Key="ShapeSize">110,70</av:Size>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence sap:VirtualizedContainerService.HintSize="520,1524" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Google One Storage Management" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,1464" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="871edc98-e96a-4d95-9835-12aa948ee6f8" Version="V2">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="452,1224" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Boolean" Name="noRecordsToDelete" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:UiElementExists DisplayName="Element Exists 'SPAN'" sap:VirtualizedContainerService.HintSize="418,139" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
+                        <ui:UiElementExists.Exists>
+                          <OutArgument x:TypeArguments="x:Boolean">
+                            <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">noRecordsToDelete</CSharpReference>
+                          </OutArgument>
+                        </ui:UiElementExists.Exists>
+                        <ui:UiElementExists.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="90c9ced7-64b4-4924-9ed2-3a6982b0d85b" InformativeScreenshot="2062bad24bf857f60362832bc7a2f673" Selector="&lt;webctrl aaname='No emails in trash to delete' tag='SPAN' /&gt;">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </ui:UiElementExists.Target>
+                      </ui:UiElementExists>
+                      <If sap:VirtualizedContainerService.HintSize="418,1025" sap2010:WorkflowViewState.IdRef="If_3">
+                        <If.Condition>
+                          <InArgument x:TypeArguments="x:Boolean">
+                            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">noRecordsToDelete == true</CSharpValue>
+                          </InArgument>
+                        </If.Condition>
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="382,108" sap2010:WorkflowViewState.IdRef="MessageBox_2">
+                              <ui:MessageBox.Text>
+                                <InArgument x:TypeArguments="x:Object">
+                                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">"There are no records to delete"</CSharpValue>
+                                </InArgument>
+                              </ui:MessageBox.Text>
+                            </ui:MessageBox>
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,726" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Delete all'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="871edc98-e96a-4d95-9835-12aa948ee6f8" Version="V4">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="one.google.com/storage/management/gmail/trash" CVScreenId="6cc27302-e9c8-465c-98f9-2310475e2f2d" ContentHash="LvAN7OgBa0qoXKMrpqzFKw" CvTextArea="1486, 230, 62, 14" CvTextArgument="Delete all" CvType="Text" DesignTimeRectangle="1487, 229, 62, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Delete all' tag='SPAN' type='' class='mUIrbf-vQzf8d' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Delete all' /&gt;" Guid="3fc7e3f1-2947-4db1-83ce-d9c893bbb16b" InformativeScreenshot="8f7c91344a7973a7955cb8c20ddc80be.png" Reference="p0RlEkLUH0eUrOpmPmWGvg/u0n7RFk4NUShqOJtHt5yTw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google One Storage Management' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target CVScreenId="6cc27302-e9c8-465c-98f9-2310475e2f2d" CvTextArea="1486, 230, 62, 14" CvTextArgument="Delete all" CvType="Text" DesignTimeRectangle="1475, 218, 86, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-label='Delete all' tag='BUTTON' type='' class='mUIrbf-LgbsSe mUIrbf-LgbsSe-OWXEXe-zcdHbf mUIrbf-LgbsSe-OWXEXe-dgl2Hf EYdxJe G0UrO' aaname='Delete all' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Delete all' /&gt;" Guid="379a3b87-a4a7-4b7a-97d0-f5541e575414" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I understand that delet…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="871edc98-e96a-4d95-9835-12aa948ee6f8" Version="V4">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="one.google.com/storage/management/gmail/trash" CVScreenId="d7c3aa4e-5e72-4393-9026-3a11232579b0" ContentHash="h8tJmaZwIkKuYoAzmG7jIA" CvElementArea="795, 666, 21, 21" CvType="CheckBox" DesignTimeRectangle="801, 673, 10, 7" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' tag='path' class='KGC9Kd-HUofsb-Jt5cK' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="65d48406-2316-4132-bd3f-647a38316fb5" InformativeScreenshot="a34c89543b03cf3d5437099dd72c8e76.png" Reference="p0RlEkLUH0eUrOpmPmWGvg/YvLR057QCEq12hhD9tB7dg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google One Storage Management' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target DesignTimeRectangle="838, 657, 316, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='I understand that deleted items can&amp;apos;t be recovered.' tag='DIV' type='' class='KO2Gmd' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='I understand that deleted items can&amp;apos;t be recovered.' /&gt;" Guid="d51ae598-5d9a-4905-8450-42f1fa6558dd" SearchSteps="FuzzySelector" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Permanently delete'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,216" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="871edc98-e96a-4d95-9835-12aa948ee6f8" Version="V4">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="one.google.com/storage/management/gmail/trash" CVScreenId="c159be4e-4e4c-42d5-bb23-a3173e67a18d" ContentHash="u5sXb7s_r06siy0SM8rjuA" CvElementArea="976, 731, 179, 44" CvTextArea="1000, 745, 131, 18" CvTextArgument="Permanently delete" CvType="Button" DesignTimeRectangle="1002, 743, 128, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Permanently delete' tag='SPAN' type='' class='UywwFc-vQzf8d' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Permanently delete' /&gt;" Guid="7c973147-de35-4e16-a411-6c1c5be52e3d" InformativeScreenshot="c425f21fefec61cc64cdd9490b88857c.png" Reference="p0RlEkLUH0eUrOpmPmWGvg/ivBcji9fAkmq_y3hVDzJwA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google One Storage Management' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target CVScreenId="c159be4e-4e4c-42d5-bb23-a3173e67a18d" CvElementArea="976, 731, 179, 44" CvTextArea="1000, 745, 131, 18" CvTextArgument="Permanently delete" CvType="Button" DesignTimeRectangle="978, 733, 176, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Permanently delete' tag='BUTTON' type='' class='UywwFc-LgbsSe UywwFc-LgbsSe-OWXEXe-dgl2Hf UywwFc-StrnGf-YYd4I-VtOx3e  vAfTB' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Permanently delete' /&gt;" Guid="43836c20-85a7-494c-8efb-c97bb3fbfd92" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="UUmPQn84Mkqd7Di9EgB0Ow" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASWSURBVHhe7ZhvaBtlHMfPPkFUJugb/7Xdunbr/6Zpc6dbO6FcKsp8sZpYZLjhcMoUJ1qWpmnapl1hgsrUVyq+EIW5ZGPgsMpm72o6NyZCq5WjFKbM+mJt7nK59J/M5rL+5CkGwpM2yRVf3F3yhc+r3vOEzwcSklJUYYXpYiLLtIgs4xYdNCexzDmRtb8ms43F5HOm28rrJVaJZSYkBwMkooORZQdziDxjmi2feuQN+UDjEilOIjqYYfKsoQdAFcUvWz5UDldLpOzG0HekNvs+8h5DDkLUNpVD361euHcqXTQTdIi8y3CDK1RpnLPMqLwFVvzFP6dLZoCl41Jb3TbyTsMszlOMyiMZy2OiL1cJaZJZkNvs1eS9hlhiDHWqHFpNymNiL9bcIAWzcfbgkLECAFB3qbzlnVTxLQdg6Zijd76WfA3dDiao+/CHHSm+1QBXO14aaTu1XE++ji4Ho9Rjcc4ikNJbDSCytPS0f+5mixECAEc1qRwSSWGSnAOwdLzrzUvjTw4vQcuQzgOsf9jx6DYpuxE5Blj0HP9mct/wEmB0G+C/D7thUjIT2QLMOfbMdnb/Ntt6chGS6DIAhKh7VA5dJAWzkSnAjWfaJ9v75xZbsHQqegsAP1KPxnnLBCmXC5sFGH3uWGjvYOzO3pOLQKKrADBN3Z38WrsVyACig159/+hn1/YMLcJm0HoKEOeLjpFSWkgNEGYZ6WjXleknhhYgE7oKoPJolJTSQjLAX0+1zuz3/h5+fHABsqGvAByaI6W0gAP8+uyB660D4dvM4ALkgt4CSKRU7qC1811vjdD+GGhCVwF4y/V0sVxAy4kf0H67XxHs/hhowaqvAEX+dLnMxHn0J4So9Z+0zf2K0DwQAy1YfToKAN9TD6k8ipCSm4M4uEo9mDxv61eEpgEFtGD1KfoJgKfylnaVQ4l0WYIxywf4H6GpZxv7FcE2oIAWdBcAL8GjQyqH/k6TxnDoH/x38gyetU8RGvsV0IIuA+Dhr8SJMXRE5S2n178fcOhygkcvwDXqfvLZ5HAAK5bSgl4DbGUNvqjQ0BcFLdSYKUC9LyrU90VBC6YKUOuLCnW+KGjBVAFqfLJQ65NBC6YKUN0rCzW9MmjCbAGqe2XQgqkCVHklocobAS1UmCnAbq8kVHojoAVTBdjllYTd3ghowVwBBn85XeGJrO3qiUCuVLhNFIAOOMcbPn7vUrlHVCp6JMgJswWggy6wffmKsLPn1lS5R4JslJoxAKb5bKdS7p/8dqdHgkyYNkCSmo8+GdnhDq+UdYuwEaXusLkDYBo/Pz69vXv+jx3dIpDkRQBM01cHlTLvzPh2twip5E2AJJXvnh8pcYfVUncYy+dfAEzdp32hkhPzt0pOhOHhfAyAsZ05PFvsuflT3gbA2IPOtcozrzLkPYad1gDrBJ5vI+8x7AoBCgEKAQoB0gSzke8ByDsMveag821SMBP2oHOKvMPQswU6yuxB1wIpuhnNAecR8g7DD0uRohsScI6TZ02zbG8Fe9B10fZ1xwPkOVNt/e0QcH1hDzhnU8Xt51wd5LOFFVbY/7p/Ab9/zOFj+ktSAAAAAElFTkSuQmCC" InformativeScreenshot="b8f1c742e1bd385c205e0004638a5b9b.jpg" Reference="p0RlEkLUH0eUrOpmPmWGvg/D6tbNDV2NUC0NLxlqniAyQ" Selector="&lt;html app='chrome.exe' title='Google One Storage Management' /&gt;" Url="https://one.google.com/storage/management/gmail/trash" Version="V2" />
+                </uix:NApplicationCard.TargetApp>
+              </uix:NApplicationCard>
+            </Sequence>
+          </FlowStep>
+        </FlowStep.Next>
       </FlowStep>
+      <x:Reference>__ReferenceID0</x:Reference>
     </Flowchart>
   </Sequence>
 </Activity>

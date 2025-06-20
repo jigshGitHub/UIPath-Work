@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LvAN7OgBa0qoXKMrpqzFKw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="one.google.com/storage/management/gmail/trash" CVScreenId="6cc27302-e9c8-465c-98f9-2310475e2f2d" CvTextArea="1486, 230, 62, 14" CvTextArgument="Delete all" CvType="Text" DesignTimeRectangle="1487, 229, 62, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Delete all' tag='SPAN' type='' class='mUIrbf-vQzf8d' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Delete all' /&gt;" Guid="3fc7e3f1-2947-4db1-83ce-d9c893bbb16b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google One Storage Management' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6cc27302-e9c8-465c-98f9-2310475e2f2d" CvTextArea="1486, 230, 62, 14" CvTextArgument="Delete all" CvType="Text" DesignTimeRectangle="1475, 218, 86, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-label='Delete all' tag='BUTTON' type='' class='mUIrbf-LgbsSe mUIrbf-LgbsSe-OWXEXe-zcdHbf mUIrbf-LgbsSe-OWXEXe-dgl2Hf EYdxJe G0UrO' aaname='Delete all' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Delete all' /&gt;" Guid="379a3b87-a4a7-4b7a-97d0-f5541e575414" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8f7c91344a7973a7955cb8c20ddc80be.png" xmlns="">0g2wv8NWvLkmLv1gKeFtiAQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="u5sXb7s_r06siy0SM8rjuA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="one.google.com/storage/management/gmail/trash" CVScreenId="c159be4e-4e4c-42d5-bb23-a3173e67a18d" CvElementArea="976, 731, 179, 44" CvTextArea="1000, 745, 131, 18" CvTextArgument="Permanently delete" CvType="Button" DesignTimeRectangle="1002, 743, 128, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Permanently delete' tag='SPAN' type='' class='UywwFc-vQzf8d' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Permanently delete' /&gt;" Guid="7c973147-de35-4e16-a411-6c1c5be52e3d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google One Storage Management' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c159be4e-4e4c-42d5-bb23-a3173e67a18d" CvElementArea="976, 731, 179, 44" CvTextArea="1000, 745, 131, 18" CvTextArgument="Permanently delete" CvType="Button" DesignTimeRectangle="978, 733, 176, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Permanently delete' tag='BUTTON' type='' class='UywwFc-LgbsSe UywwFc-LgbsSe-OWXEXe-dgl2Hf UywwFc-StrnGf-YYd4I-VtOx3e  vAfTB' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Permanently delete' /&gt;" Guid="43836c20-85a7-494c-8efb-c97bb3fbfd92" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c425f21fefec61cc64cdd9490b88857c.png" xmlns="">0AimHV-Z6tU-fVcAGBbrRaw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

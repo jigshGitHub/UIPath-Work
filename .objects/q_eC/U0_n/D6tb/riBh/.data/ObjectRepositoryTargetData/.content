@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BLGey4wl5UKql6pKIhJ-9Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="one.google.com/storage/management" CVScreenId="31d25763-9fcc-4acb-8218-7fbba90029ca" CvElementArea="725, 775, 227, 205" CvType="Button" DesignTimeRectangle="808, 799, 60, 60" ElementType="Icon" FullSelectorArgument="&lt;webctrl src='https://ssl.gstatic.com/subscriptions/management/storage/emails-in-trash_35dadc8e52def79787ac4d678aa17dd8.svg' tag='IMG' /&gt;" Guid="3188991f-fcb7-4800-8622-663a41d72691" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google One Storage Management' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="9043b3310776bdffb97046261e7b3f69.png" xmlns="">0FOWE9lh3t026gTBecynzSQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Permanently delete",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ivBcji9fAkmq_y3hVDzJwA",
+  "Reference": "p0RlEkLUH0eUrOpmPmWGvg/ivBcji9fAkmq_y3hVDzJwA",
+  "ParentRef": "p0RlEkLUH0eUrOpmPmWGvg/D6tbNDV2NUC0NLxlqniAyQ",
+  "Created": "2025-06-20T03:22:02.7460347Z",
+  "Updated": "2025-06-20T03:22:02.7460347Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

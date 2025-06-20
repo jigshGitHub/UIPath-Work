@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jM61MwcfKESULM1e8M381Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="one.google.com/storage/management" CVScreenId="31d25763-9fcc-4acb-8218-7fbba90029ca" CvElementArea="116, 52, 1624, 37" CvType="InputBox" DesignTimeRectangle="165, 59, 1495, 24" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Google One Storage Management - Google Chrome - Jignesh' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="f7a2daa6-3bbe-4e26-a774-f0dc2110b92c" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Google One Storage Management - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="6a1038fc786345f3a57172db42127a11.png" xmlns="">0Zhnvxm7cq0qqOUtGgFwOqg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
