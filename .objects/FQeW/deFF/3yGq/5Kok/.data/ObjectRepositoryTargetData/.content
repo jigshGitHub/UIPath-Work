@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ODtYQbiP_EKSsepAtvja0g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="one.google.com/storage" CVScreenId="a4a0c33d-d36f-4d67-a122-ef059ffb28da" CvElementArea="1098, 446, 154, 44" CvTextArea="1122, 460, 104, 17" CvTextArgument="Clean up space" CvType="Button" DesignTimeRectangle="1100, 448, 150, 40" FullSelectorArgument="&lt;webctrl class='RBHQF-ksKsZd' css-selector='body&amp;gt;div&amp;gt;c-wiz&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;main&amp;gt;c-wiz&amp;gt;div&amp;gt;c-wiz&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' tag='SPAN' /&gt;" Guid="9628b37d-8d0b-41fc-94ed-888c9448b765" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google One Storage' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="1afeb14cea123aa777dc66f1ea825e4a.png" xmlns="">0upMJ7gg7x0uRGYPsI3mtxQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

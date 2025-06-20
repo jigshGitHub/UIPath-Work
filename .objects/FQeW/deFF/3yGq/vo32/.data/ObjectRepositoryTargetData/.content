@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MRlu9eklSUe9qdxfgeJu6w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mail.google.com/mail/u/0" CVScreenId="6b3e2044-c3a6-4be6-871d-b4a85691508f" CvElementArea="329, 186, 721, 51" CvType="InputBox" DesignTimeRectangle="376, 203, 580, 20" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' class='gb_qe aJh' placeholder='Search mail' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="5afc3f2c-c502-48c7-80a5-02fe8aab7c56" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Inbox (8,973) - jsquareshah@gmail.com - Gmail' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="d3dbdfc1dad82c3c5dfa6f82076df92d.png" xmlns="">0tZlKQmQ0vEOAaf8VLN0XPg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

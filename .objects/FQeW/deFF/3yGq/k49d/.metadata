@@ -1,0 +1,14 @@
+﻿{
+  "Name": "mail.google.commailu…(4)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "k49dS77Q-kyuYA4Uk_v7jg",
+  "Reference": "p0RlEkLUH0eUrOpmPmWGvg/k49dS77Q-kyuYA4Uk_v7jg",
+  "ParentRef": "p0RlEkLUH0eUrOpmPmWGvg/3yGq0XaeHkmFqRCY4RLktA",
+  "Created": "2025-06-19T05:30:39.6268408Z",
+  "Updated": "2025-06-19T05:30:39.6268408Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

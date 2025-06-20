@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="w0-yXGyYUUGgUkThR_UTcQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mail.google.com/mail/u/0" CVScreenId="436151c6-85b5-4a1f-b989-8ace8f5e4f30" CvElementArea="496, 314, 19, 21" CvType="Icon" DesignTimeRectangle="492, 311, 28, 28" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl class='asa' type='' parentid='31' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="888b9c00-c7ba-41ec-ad91-772bf26cb723" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB3SURBVEhL7dRRCoAgEEVRFxe1oGpB2kKLMQQ16T1h7Kc5MCAlXvvJnR9z9YPRLKjOgg/TMhfTCwbrABoEBn0I8aB13+K6NfJO9sgagUGBDkuXYnQH0zqPWDBnwehfwZYhQeZPw6CC/ri/4G1kD4MKarKgOguquwCPpncUcAzWeAAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search results - jsquareshah@gmail.com - Gmail' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="c1a09ff4c79f2c64976f6868251215fb.png" xmlns="">0PDUAVf5_VE-k6Nsi9R63Vw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

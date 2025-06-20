@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uU3RcCVeIUWvaKTRLkZwHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mail.google.com/mail/u/0" CVScreenId="746dfce0-f6f1-4a4e-8db1-39aa1a10c2ca" CvElementArea="113, 52, 1625, 36" CvType="InputBox" DesignTimeRectangle="165, 59, 1527, 24" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Inbox (8,071) - jsquareshah@gmail.com - Gmail - Google Chrome - *' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="bd296bd3-95d7-411e-ade8-14a4ee26ea50" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Inbox (8,071) - jsquareshah@gmail.com - Gmail - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="3b3609b41dfef8d7a9d4f5cd5e474b1c.png" xmlns="">03RY24JiQQES3Gt1-bX8HSg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

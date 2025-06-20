@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bc_Dg22YtkCOqg98BMJc-Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mail.google.com/mail/u/0" CVScreenId="8e9d3c7b-135e-4b17-97cd-260f9b2987b3" CvElementArea="496, 314, 19, 21" CvType="Icon" DesignTimeRectangle="496, 315, 20, 20" FullSelectorArgument="&lt;webctrl class='asa' idx='3' parentid='32' tag='DIV' /&gt;" Guid="14b67eb4-1b6a-4d5d-9dab-8f0f1e6f001c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB0SURBVEhL7ZPRCoAgDEX9uKgPqj5I+9BiC8HE3e1hQg87cGHo3NmL6Z5M6g+8CYGKWbBs6ydWREE/UIuEKMil8MP9PLgehe6oh2oJUUBoj+sSCLOg1u3QEISA+Y9ghIvA8pMRUJCvd0MU6kFAgQchUJkueAAAZjonICv1qQAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search results - jsquareshah@gmail.com - Gmail' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="e7f5f1852fab998f6edd1b4c971405f7.png" xmlns="">0Zd8vCMNVqESg6E1BDxvH1A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

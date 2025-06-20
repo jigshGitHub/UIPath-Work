@@ -1,0 +1,13 @@
+﻿{
+  "Name": "DIV(3)",
+  "Type": "Element",
+  "Id": "CK4TIP4UfkCyeG66aM1OVg",
+  "Reference": "p0RlEkLUH0eUrOpmPmWGvg/CK4TIP4UfkCyeG66aM1OVg",
+  "ParentRef": "p0RlEkLUH0eUrOpmPmWGvg/3yGq0XaeHkmFqRCY4RLktA",
+  "Created": "2025-06-20T01:20:05.4118379Z",
+  "Updated": "2025-06-20T01:20:05.4118379Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

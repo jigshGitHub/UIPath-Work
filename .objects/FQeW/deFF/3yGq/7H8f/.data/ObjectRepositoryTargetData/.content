@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="X8b9i9ZOmU2nBs6rG1963Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forum.uipath.com/t/element-exists-activity-is-missing/269288/5" CVScreenId="3d376bed-ed63-4673-80e5-f013d871a6ac" CvElementArea="1803, 17, 21, 18" CvType="MinimizeButton" DesignTimeRectangle="1791, 8, 45, 40" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Element Exists Activity is missing - Help / Studio - UiPath Comm*' role='pane' /&gt;&lt;ctrl name='Minimize' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Element Exists Activity is missing - Help / Studio - UiPath Comm*' role='pane' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Minimize' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Minimize' /&gt;" Guid="c163629a-ba9e-4689-b54a-696c3cd919e0" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Element Exists Activity is missing - Help / Studio - UiPath Comm*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="ae3aad7f0231e035bd83d76f4b7d4dda.png" xmlns="">0nrZYGXb_gkyBCQtyIIkDAA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

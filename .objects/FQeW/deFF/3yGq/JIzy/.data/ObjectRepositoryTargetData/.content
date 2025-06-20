@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VHvsHuPIDEW3HAdyFsxxGQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mail.google.com/mail/u/0" CVScreenId="e5b97de9-9f13-4ded-baee-4619ade37ace" CvTextArea="827, 361, 618, 13" CvTextArgument="No messages matched your search. Try using search options such as sender, date, size and more." CvType="Text" DesignTimeRectangle="332, 349, 1580, 40" FuzzySelectorArgument="&lt;webctrl parentid='32' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='' tag='TD' class='TC' aaname='No messages matched your search. Try using  such as sender, date, size and more.' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='No messages matched your search. Try using search options such as sender, date, size and more.' /&gt;" Guid="220baf6d-24d4-4e05-86f0-66501369ec2c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search results - jsquareshah@gmail.com - Gmail' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="0f24da62f5e875bdea7fb1b50fc013cf.png" xmlns="">0qDsWPgYem0mYOz-wW4IdjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

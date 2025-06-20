@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="C7v8fqSPyE2vicHs34eEnw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mail.google.com/mail/u/0" CVScreenId="f6e59fbb-2b53-47fd-a8c6-bcd5300a08bd" CvElementArea="495, 262, 20, 21" CvType="Icon" DesignTimeRectangle="492, 259, 28, 28" Guid="f5505cad-01b5-494f-92a3-80495e153da4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB3SURBVEhL7dRRCoAgEEVRFxe1oGpB2kKLMQQ16T1h7Kc5MCAlXvvJnR9z9YPRLKjOgg/TMhfTCwbrABoEBn0I8aB13+K6NfJO9sgagUGBDkuXYnQH0zqPWDBnwehfwZYhQeZPw6CC/ri/4G1kD4MKarKgOguquwCPpncUcAzWeAAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search results - jsquareshah@gmail.com - Gmail' /&gt;" SearchSteps="Image, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="53d9a0aadfc121a6efdac1a5e60cfc48.png" xmlns="">0Jpor6B2JKEi8Y6fXPNLj0A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
